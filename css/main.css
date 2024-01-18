@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/beautiful_beach-5f97b0ec.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div {
+    border: 0.1px solid black;
+    margin-top: 70px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+iframe {
+    border: 2px solid black; 
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+    position: fixed; 
+    top: 0;
+    z-index: 1000; 
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0; 
+    color: white;
+    font-size: 60px;
+}
+
